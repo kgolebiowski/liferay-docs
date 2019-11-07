@@ -4,14 +4,19 @@
 *.iml
 *.swp
 *-tmp.html
-*.zip
 .project
 .classpath
-.METADATA
 .settings
 git-modified-list.txt
 nbbuild.xml
 properties/
+.METADATA
+.DS_Store
+.directory 
+.gradle
+.nb-gradle
+
+node_modules/
 
 /*.ipr
 /*.iws
@@ -26,3 +31,9 @@ dist/
 .sass-cache/
 .DS_Store/
 *#
+/develop/tutorials/code/osgi/modules/form-nav-extension-portlet/.nb-gradle/
+/develop/tutorials/code/osgi/modules/com.liferay.docs.greetingimpl/.nb-gradle/
+/develop/tutorials/code/osgi/modules/com.liferay.docs.greetingapi/.nb-gradle/
+/develop/tutorials/code/osgi/modules/com.liferay.docs.greetingcommand/.nb-gradle/
+**/temp/**
+/develop/tutorials/code/com-liferay-docs-guestbook/.nb-gradle/
